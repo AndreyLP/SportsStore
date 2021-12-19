@@ -46,6 +46,7 @@ namespace SportsStore
             //{
             //    await context.Response.WriteAsync("Hello World!");
             //});
+            SeedData.EnsurePopulated(app);
         }
     }
 }
